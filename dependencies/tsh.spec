@@ -27,7 +27,7 @@ exe = EXE(
     name='TSH',
     exclude_binaries=True,
     icon='assets/icons/icon.ico',
-    noconsole=True,
+    console=True,
     hiddenimports=[],
     windowed=True
 )
